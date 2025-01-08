@@ -1,0 +1,41 @@
+.box{
+    width: 300px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-left: 40%;
+    margin-top: 40px;
+}
+body{
+    background-color: rgb(28, 111, 84);
+    text-align: center;
+}
+form label {
+    display: block;
+    margin-top: 10px;
+    font-size: x-large;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px
+}
+form button{
+    margin-top: 20px;
+    font-size: x-large;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: green;
+    cursor: pointer;
+}
+form button:hover{
+    color: red;
+}
+form p{
+    color: red;
+    font-size: small;
+}
